@@ -293,6 +293,31 @@ email {
     display: flex;
 }
 #newsletter form input{
-    /* width: 600px; */
     flex-grow: 1;
+    border: none;
+    border-radius: 3px;
+    padding: 15px;
+    font-size: 25px;
 }
+#email1{
+    padding: 80px 585px 40px 585px;
+}
+
+
+
+/* footer style section */
+
+.box1 {
+    width: 1600px;
+    height: 609px;
+  }
+  
+  .box .rec {
+    position: fixed;
+    width: 1600px;
+    height: 609px;
+    top: 0;
+    left: 0;
+    background-color: #070211;
+  }
+  
