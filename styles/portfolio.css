@@ -1,0 +1,38 @@
+/* common style */
+body {
+    font-family: 'Merriweather', serif;
+}
+
+header {
+    margin: 50px auto;
+    width: 1320px;
+    height: 600px;
+    /* background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%); */
+    background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../resources/banner\ image.png');
+    border-radius: 16px;
+
+}
+
+.happy {
+    color: #FFF;
+    padding-top: 177px;
+    padding-left: 500px;
+    padding-right: 500px;
+    text-align: center;
+    font-size: 32px;
+}
+
+.party {
+    width: 632px;
+    color: #FFF;
+    padding-left: 344px;
+    padding-right: 344px;
+    text-align: center;
+    font-size: 72px;
+}
+
+.header-content {
+    width: 1600px;
+    height: 7335px;
+    background: red;
+}
