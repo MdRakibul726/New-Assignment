@@ -17,7 +17,7 @@ body {
     margin: 0 auto;
 }
 
-.button-red{
+.button-red {
     display: inline-flex;
     padding: 16px 32px;
     justify-content: center;
@@ -244,16 +244,16 @@ body {
 /* subscribe style */
 
 .sub {
-     width: 1320px;
-    height: 616px; 
+    width: 1320px;
+    height: 616px;
     border-radius: 16px;
     /* background: rgba(255, 0, 0, 0.05); */
     background-color: rgba(255, 0, 0, 0.05);
 }
 
 email {
-    width: 150px; 
-    height: 150px; 
+    width: 150px;
+    height: 150px;
     flex-shrink: 0;
     padding-top: 80px;
     /* padding-left: 400px; */
@@ -278,28 +278,30 @@ email {
     font-weight: 400;
 }
 
-#newsletter{
+#newsletter {
     margin: 120px 0;
 }
 
-.newsletter-main{
+.newsletter-main {
     background-color: rgba(255, 0, 0, 0.05);
     padding: 270px 0;
 }
 
-#newsletter form{
+#newsletter form {
     max-width: 800px;
     margin: 20px auto;
     display: flex;
 }
-#newsletter form input{
+
+#newsletter form input {
     flex-grow: 1;
     border: none;
     border-radius: 3px;
     padding: 15px;
     font-size: 25px;
 }
-#email1{
+
+#email1 {
     padding: 80px 585px 40px 585px;
 }
 
@@ -307,17 +309,11 @@ email {
 
 /* footer style section */
 
-.box1 {
-    width: 1600px;
-    height: 609px;
-  }
-  
-  .box .rec {
-    position: fixed;
-    width: 1600px;
-    height: 609px;
-    top: 0;
-    left: 0;
-    background-color: #070211;
-  }
-  
+.footer-column {
+    color: #c00d0d;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+    display: flex;
+
+}
