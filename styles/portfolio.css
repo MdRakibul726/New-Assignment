@@ -309,11 +309,47 @@ email {
 
 /* footer style section */
 
-.footer-column {
+/* .footer-column {
     color: #c00d0d;
     font-size: 24px;
     font-weight: 500;
     line-height: 40px;
     display: flex;
 
+} */
+
+.color {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+.footer {
+    background-color: #070211;
+    width: 1600px;
+    height: 609px;
+}
+
+.upper-footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 120px 200px 50px 130px;
+}
+
+.middle-footer {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    padding: 48px;
+}
+
+.lower-footer{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-left: 140px;
+    padding-right: 120px;
 }
